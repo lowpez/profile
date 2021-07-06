@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;600;700&display=swap');
+
+body{
+  background: #f9f9f9 url('https://i.imgur.com/ke2bUzy.png');
+  color: #888;
+}
+p{
+  font-family: 'Lato', Arial, sans-serif;
+  text-align: left; 
+}
+
+.container {
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;*/
+  margin: 0 auto;
+}
+
+.card {
+  background: black;
+  text-align: center;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card .profile-image {
+  padding: 15% 10% 0;
+}
+
+.card .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 50%;
+  max-width: 40%;
+}
+
+.card figcaption {
+  padding: 5% 10% 15%;
+}
+
+.card h3 {
+  font-family: 'Montaserrat', sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: white;
+  margin: 3px 0;
+}
+
+.card h5 {
+  font-family: 'Montaserrat', sans-serif;
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+  color: #e11930;
+  letter-spacing: 1px;
+}
+
+.card .icons {
+  color: #999;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.card ul{
+  list-style: none;
+  margin: 1em auto;
+}
+
+.card li{
+  float: left;
+  padding: 0.5em 0.6em;
+  margin: 5px;
+
+  display: inline-block;
+  border-radius: 60px;
+  background: black;
+  box-shadow: 0px 0px 2px #888;
+  
+}
+.card li:hover {
+  background: #e11930;
+  box-shadow: 0px 0px 2px #888;
+}
+.card .icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.i-social{
+  
+}
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    max-width: 100%;
+  }
+}
